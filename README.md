@@ -1,7 +1,5 @@
 ![tko-banner](https://user-images.githubusercontent.com/100104319/232356032-b2abf06b-783a-4ca1-9037-c999afa771a6.png)
 
-## 👋 Welcome
-Thanks for stopping by. This project is moving the [trailkeepersoforegon.org](https://www.trailkeepersoforegon.org) website under version control to allow more collaborators to work on the site platform. This is separate from the content of the site which is managed primarily by TKO staff. If you are interested in contributing see the Get Involved section below.
 
 ### The Plan
 * ✅ Create Repository
