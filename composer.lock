@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "dcb50ac91ba73a0d08f845c52a478327",
+    "content-hash": "eab88abb38115077786c034c1d1ca859",
     "packages": [
         {
             "name": "composer/installers",
@@ -182,6 +182,20 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/all-in-one-seo-pack/"
+        },
+        {
+            "name": "wpbakery/pagebuilder",
+            "version": "5.4.7",
+            "dist": {
+                "type": "path",
+                "url": "packages/wpbakery",
+                "reference": "1b0b5b0f22b4866af257658eaec1fe7e6574d753"
+            },
+            "type": "wordpress-plugin",
+            "transport-options": {
+                "symlink": false,
+                "relative": true
+            }
         }
     ],
     "packages-dev": [],

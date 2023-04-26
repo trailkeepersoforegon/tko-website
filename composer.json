@@ -31,7 +31,16 @@
                     "type": "zip"
                 }
             }
+        },
+        {
+            "type": "path",
+            "url":"packages/wpbakery",
+            "options": {
+                "symlink": false
+            }
+
         }
+
     ],
     "extra": {
         "installer-paths": {
@@ -48,7 +57,8 @@
     },
     "require": {
         "wpackagist-plugin/all-in-one-seo-pack": "4.3.*",
-        "mt-support/tribe-ext-eventbrite-additional-options": "1.0.3"
+        "mt-support/tribe-ext-eventbrite-additional-options": "1.0.3",
+        "wpbakery/pagebuilder": "5.4.7"
     },
     "config": {
         "allow-plugins": {

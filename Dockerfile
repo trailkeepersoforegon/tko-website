@@ -8,6 +8,9 @@ COPY --from=composer /usr/bin/composer /usr/bin/composer
 COPY composer.json ./
 COPY composer.lock ./
 
+# Copy over private dependencies
+COPY packages/ ./packages/
+
 # Install dependencies using Composer
 RUN composer install --no-scripts --no-autoloader
 
