@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "eab88abb38115077786c034c1d1ca859",
+    "content-hash": "f914101e8bdd36bef6230335fab67f2f",
     "packages": [
         {
             "name": "composer/installers",
@@ -164,6 +164,42 @@
                 "url": "https://github.com/mt-support/tribe-ext-eventbrite-additional-options/archive/refs/tags/1.0.3.zip"
             },
             "type": "wordpress-plugin"
+        },
+        {
+            "name": "wpackagist-plugin/advanced-cron-manager",
+            "version": "2.5.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/advanced-cron-manager/",
+                "reference": "tags/2.5.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/advanced-cron-manager.2.5.0.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/advanced-cron-manager/"
+        },
+        {
+            "name": "wpackagist-plugin/advanced-database-cleaner",
+            "version": "3.1.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/advanced-database-cleaner/",
+                "reference": "tags/3.1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/advanced-database-cleaner.3.1.2.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/advanced-database-cleaner/"
         },
         {
             "name": "wpackagist-plugin/all-in-one-seo-pack",
