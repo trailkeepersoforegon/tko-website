@@ -1,0 +1,1557 @@
+
+html {
+	overflow-y: scroll;
+}
+
+input:disabled {
+    background-color: #0085ba;
+    border-color: rgba(222,222,222,.75);
+    box-shadow: inset 0 1px 2px rgba(0,0,0,.04);
+    color: #e9e9e9;
+    cursor: default;
+}
+
+.aDBc-content-max-width {max-width: 960px}
+
+.aDBc-link {text-decoration: none}
+
+.aDBc-clear-both {clear: both}
+
+.aDBc-float-left {float: left}
+
+.aDBc-float-right {float: right}
+
+.aDBc-vertical-align-m {vertical-align: middle !important}
+
+.aDBc-margin-t-10 {margin-top: 10px}
+
+.aDBc-margin-t-20 {margin-top: 20px}
+
+.aDBc-margin-t-30 {margin-top: 30px}
+
+.aDBc-padding-20 {padding: 20px}
+
+.aDBc-font-13 {font-size: 13px}
+
+.aDBc-bold {font-weight: bold}
+
+.aDBc-please-activate-msg {
+	border-left: 5px solid orange !important;
+	background: #fff;
+	padding: 1px 20px;
+}
+
+.aDBc-button-icon {
+	padding: 4px 4px 0px 0px !important;
+	background-repeat: no-repeat;
+}
+
+/*---------------------------------------------------------------------------------------------
+*  Header
+*---------------------------------------------------------------------------------------------*/
+
+.aDBc-header-wrap {
+	margin-bottom: 25px;
+	background: #fff;
+	border: 1px solid #e5e5e5;
+	border-radius: 6px;
+	min-height: 55px;
+	padding: 25px 20px;
+}
+
+.aDBc-header-logo {
+	float: left;
+	margin: 0px 20px 0px 0px;
+	width: 50px;
+}
+
+@media screen and (max-width: 375px) {
+	.aDBc-header-logo {display: none}
+}
+
+.aDBc-header-help-svg {width: 40px}
+
+.aDBc-header-title {
+	font-size: 20px;
+	font-weight: 400;
+	margin-bottom: 6px;
+}
+
+@media screen and (max-width: 470px) {
+	.aDBc-header-title {font-size: 15px}
+}
+
+.aDBc-header-meta {
+	border-top: 1px dashed #eee;
+	padding-top: 3px;
+}
+
+.aDBc-header-need-help-ss {display: none}
+
+@media screen and (max-width: 420px) {
+	.aDBc-header-need-help-ss {display: inline}
+	.aDBc-header-need-help-ls {display: none}
+}
+
+.aDBc-header-by {margin-right: 5px}
+
+.aDBc-header-by span {
+	color: #555;
+}
+
+.aDBc-header-need-help-ls, .aDBc-header-need-help-ss {margin-left: 5px}
+
+.aDBc-header-need-help-ls span {
+	color: #555;
+}
+
+.aDBc-header-support {
+	float: right;
+	text-align: center;
+}
+
+@media screen and (max-width: 540px) {
+	.aDBc-header-support {display: none}
+}
+
+/*---------------------------------------------------------------------------------------------
+*  Premium lost message
+*---------------------------------------------------------------------------------------------*/
+
+.aDBc-premium-lost-msg {
+	border-left: 5px solid orange !important;
+	background: #fff !important;
+	padding: 20px !important;
+	margin-bottom: 20px !important;
+}
+
+.aDBc-premium-lost-msg > span {
+	font-size: 17px;
+	font-family: arial;
+	color: orange;
+	font-weight: bold;
+}
+
+/*---------------------------------------------------------------------------------------------
+*  Tabs menus
+*---------------------------------------------------------------------------------------------*/
+
+.aDBc-tab-box {
+    float: left;
+	width: 100%;
+}
+
+.aDBc-tab-box-div {
+	min-height: 400px;
+	background: #fff;
+	border: 1px solid #ccc;
+	padding: 40px 20px 20px 20px;
+    border-radius: 0 5px 5px 5px;
+}
+
+/*---------------------------------------------------------------------------------------------
+*  Main content for all tabs
+*---------------------------------------------------------------------------------------------*/
+
+.aDBc-main-content {
+    margin-top: 10px;
+	margin-right: 260px;
+}
+
+@media screen and (max-width: 1200px) {
+	.aDBc-main-content {
+		margin-right: 0px;
+	}
+}
+
+/*---------------------------------------------------------------------------------------------
+*  "General cleanup", "Schedules" pages & "Tables" tabs sections
+*---------------------------------------------------------------------------------------------*/
+
+.aDBc-left-content {
+	float: left;
+	max-width: 723px;
+	margin-right: 25px;
+}
+
+@media screen and (max-width: 1200px) {
+	.aDBc-left-content {
+		max-width: 100%;
+		margin-right: 0px;
+	}
+}
+
+.aDBc-right-box {
+	float: left;
+	width: 190px;
+	margin-bottom: 5px;
+	margin-top: 48px;
+	font-size: 12px;
+	color: #888;
+}
+
+.aDBc-right-box-content {
+	padding: 20px 10px;
+	margin-bottom: 10px;
+	width: 100%;
+	border: 1px solid #eee;
+	background: #f9f9f9;
+    border-radius: 1px;
+}
+
+/*---------------------------------------------------------------------------------------------
+*  "General cleanup" tab
+*---------------------------------------------------------------------------------------------*/
+
+.aDBc-keep-link {
+	cursor: pointer;
+}
+
+.aDBc-keep-input {
+	width: 35px;
+	font-size: 13px;
+	height: 28px;
+	border: 1px solid #e5e5e5;
+	text-align: center;
+	border-radius: 2px;
+	box-shadow: 0 0 10px #f1f1f1;
+	display: none;
+}
+
+.aDBc-keep-button {
+	width: 35px;
+	padding: 0px !important;
+	font-size: 12px !important;
+	height: 25px !important;
+}
+
+.aDBc-keep-cancel-link {
+	font-size: 12px;
+	cursor: pointer;
+	display: none;
+}
+
+.aDBc-scheduled-in-row {
+	background: #f1f5f5;
+	color: #000;
+	border-radius: 4px;
+	padding: 3px;
+	margin: 2px;
+}
+
+.aDBc-info-icon {
+	margin-right: 8px;
+	vertical-align: middle;
+	padding-right: 14px;
+	background: url("../images/information.svg") no-repeat left center;
+}
+
+/*---------------------------------------------------------------------------------------------
+*  Styles for the right box in "General cleanup" and "Tables" tabs
+*---------------------------------------------------------------------------------------------*/
+
+.aDBc-text-status-db {
+	font-family: verdana;
+	font-size: 12px;
+}
+
+.aDBc-schedule-text {
+	padding: 5px 0px 0px 0px;
+	font-family: verdana;
+	font-size: 12px;
+
+}
+
+.aDBc-schedule-hook-box {
+	background: #fff;
+	margin-top: 20px;
+	text-align: left;
+	padding: 5px;
+	border: 1px dashed #999;
+	color: black;
+	vertical-align: middle;
+	border: 1px solid #f1f1f1;
+	border-radius: 3px;
+	box-shadow: 0 0 10px #ccc;
+}
+
+.aDBc-schedule-on-off {
+	vertical-align: middle;
+	width: 30px;
+}
+
+.aDBc-edit-delete-schedule {
+	border-radius: 4px;
+	font-size: 11px;
+	background: #f0f5fa;
+	padding: 2px 4px;
+	float: right;
+	margin-top: 4px;
+}
+
+.aDBc-edit-schedule-link {
+	text-decoration: none;
+	margin-right: 3px;
+}
+
+.aDBc-delete-schedule-link {
+	float: right;
+	margin-left: 3px;
+}
+
+.aDBc-submit-link {
+	background: none !important;
+	border: none !important;
+	text-decoration: none !important;
+	font-size: 11px !important;
+	padding: 0 !important;
+	cursor: pointer !important;
+	color: #0073aa;
+}
+
+.aDBc-add-new-schedule {
+	text-align: center !important;
+	margin-top: 20px !important;
+	width: 100% !important;
+}
+
+/*---------------------------------------------------------------------------------------------
+*  Styles for custom cleanup pages in "general cleanup"
+*---------------------------------------------------------------------------------------------*/
+
+.aDBc-custom-clean-text {
+	float: right;
+	font-size: 15px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	color: #0992CC;
+	border-radius: 5px;
+}
+
+.aDBc-custom-total {
+	background: #ffe4b5;
+	border-radius: 6px;
+	padding: 1px 6px;
+}
+
+/*---------------------------------------------------------------------------------------------
+*  Custom schedule page view (add/edit)
+*---------------------------------------------------------------------------------------------*/
+
+.aDBc-schedule-title {
+	float: right;
+	border: 1px solid #f0f0f0;
+	box-shadow: 0 0 10px #eee;
+	border-radius: 5px;
+	text-align: center;
+	width: 195px;
+	background: #fff;
+	padding: 10px;
+	font-size: 16px;
+	margin-top: 15px;
+	margin-bottom: 25px;
+	color: #0992CC;
+}
+
+@media screen and (max-width: 450px) {
+	.aDBc-schedule-title {
+		clear: both;
+		float: left;
+	}
+}
+
+.aDBc-schedule-dashicon {
+	color: #00C6FF !important;
+	margin-right: 6px !important;
+}
+
+.aDBc-back-dashicon {
+	font-size: 30px !important;
+	margin-right: 14px !important;
+	margin-top: -1px !important;
+	color: #48BDF3 !important;
+}
+
+.aDBc-schedule-table-elements {
+	float: left;
+	max-width: 460px;
+	margin-right: 25px;
+	margin-top: 8px;
+}
+
+.aDBc-schedule-tables-box-info {
+	margin-top: 49px;
+	background: #f0f5fa;
+	line-height: 22px;
+	border-radius: 4px;
+	border: 0px solid #eee;
+}
+
+/* hide number of items */
+.aDBc-schedule-table-elements .tablenav .one-page .displaying-num {
+    display: none !important;
+}
+
+.aDBc-schedule-info-container {
+	border-top: 1px dashed #ccc;
+	margin-top: 20px;
+}
+
+.aDBc-schedule-input-field {
+	width: 100%;
+	margin-top: 6px;
+	margin-bottom: 15px;
+	height: 30px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px #e0e0e0;
+}
+
+.aDBc-schedule-input-field:disabled {
+	background-color: #e9e9e9 !important;
+	color: #000 !important;
+}
+
+.aDBc-schedule-radio-container {
+	margin-top: 6px;
+	margin-bottom: 15px;
+	text-align: left;
+	background: #fff;
+	padding: 5px;
+	box-shadow: 0 0 10px #e0e0e0;
+	border-radius: 5px;
+}
+
+.aDBc-schedule-save-btn-div {
+	width: 100%;
+	margin-top: 20px;
+}
+
+/*---------------------------------------------------------------------------------------------
+*  Tables tab
+*---------------------------------------------------------------------------------------------*/
+
+.aDBc-lost-space {
+	color: red;
+	font-size: 12px;
+	font-weight: 500;
+}
+
+.aDBc-corrupted {
+	color: red;
+	font-size: 12px;
+	font-weight: 500;
+}
+
+.aDBc-to-repair-section {
+	padding-top: 10px;
+	margin-top: 10px;
+	border-top: 1px dashed grey;
+}
+
+/*---------------------------------------------------------------------------------------------
+*  Cron jobs (tasks) tab
+*---------------------------------------------------------------------------------------------*/
+
+.aDBc-arguments {
+	background: #f5f5f5;
+	padding: 2px;
+	border-radius: 4px;
+	border: 1px solid #e1e1e1;
+}
+
+/*---------------------------------------------------------------------------------------------
+*  Box messages for tabls, options & tasks
+*---------------------------------------------------------------------------------------------*/
+
+.aDBc-box-warning-orphan {
+    background: #fff5cc url("../images/alert.svg") no-repeat scroll 8px 50%;
+    color: #404040;
+    padding: 10px 10px 10px 40px;
+	margin-top: 10px;
+	margin-bottom: 25px;
+}
+
+.aDBc-box-info {
+    background: #f0f5fa url("../images/info.svg") no-repeat scroll 8px 50%;
+    color: #404040;
+    padding: 10px 10px 10px 40px;
+	margin-top: 10px;
+	margin-bottom: 25px;
+}
+
+/*---------------------------------------------------------------------------------------------
+*  Override WordPress styles
+*---------------------------------------------------------------------------------------------*/
+
+/* For plugin main tabs */
+
+.nav-tab-wrapper {
+	border-bottom: 0px !important;
+	padding: 0 !important;
+}
+
+.nav-tab {
+	font-size: 13px !important;
+	line-height: 20px !important;
+	font-weight: normal !important;
+	padding: 10px 10px !important;
+	border-radius: 5px 5px 0 0 !important;
+}
+
+@media screen and (max-width: 800px) {
+	.nav-tab {
+		margin-top: 5px !important;
+	}
+}
+
+.nav-tab-active, .nav-tab-active:hover {
+    background: #fff !important;
+    font-weight: bold !important;
+    border-bottom: 0px !important;
+    color: #000 !important;
+    border-top: 2px solid #1a9ac9 !important;
+    color: #0073aa !important;
+}
+
+/* For WP tables */
+
+.widefat {
+	border-spacing: 1px !important;
+	border: 1px solid #e5e5e5 !important;
+	border-radius: 2px !important;
+}
+
+.widefat > thead {
+	background: #f3f3f3 !important;
+}
+
+.widefat thead td.check-column {
+    padding: 10px 3px 5px 3px !important;
+	border-bottom: 1px solid #e5e5e5 !important;
+}
+
+@media screen and (max-width: 782px) {
+	.widefat thead td.check-column {
+		padding: 6px 1px 5px 4px !important;
+	}
+}
+
+.widefat thead tr th {
+    color: #555 !important;
+	border-bottom: 1px solid #e5e5e5 !important;
+}
+
+.widefat th {
+	font-weight: bold !important;
+	font-size: 13px !important;
+}
+
+.widefat td, .widefat th {
+    border-bottom: 1px solid #f1f1f1 !important;
+	border-right: 1px solid #f1f1f1 !important;
+	overflow: visible !important;
+}
+
+.widefat > tbody > tr:hover {
+	background-color: #f2f2f2 !important;
+}
+
+.widefat tbody th.check-column {
+    padding: 10px 3px 5px 3px !important;
+}
+
+@media screen and (max-width: 782px) {
+	.widefat tbody th.check-column {
+		padding: 4px 1px 4px 4px !important;
+	}
+}
+
+@media screen and (max-width: 782px) {
+	.widefat th input, .widefat thead td input {
+		margin: 1px 0 0 1px !important;
+	}
+}
+
+.widefat tfoot {
+	display: none !important;
+}
+
+/* To color rows of tables in white */
+
+.alternate, .striped > tbody > *:nth-child(2n), ul.striped > *:nth-child(2n) {
+    background-color: #fff !important;
+}
+.alternate, .striped > tbody > *:nth-child(2n+1), ul.striped > *:nth-child(2n+1) {
+    background-color: #fff !important;
+}
+
+/* For paginations of tables */
+
+.tablenav-pages-navspan {
+    border-radius: 4px !important;
+}
+
+.tablenav .tablenav-pages a, .tablenav-pages-navspan {
+    border-radius: 4px !important;
+}
+
+.tablenav-pages .current-page {
+    border-radius: 4px !important;
+}
+
+/* Override slyes by WP_List_Table class for columns */
+
+/* "General cleanup" tab columns */
+
+.column-element_to_clean {
+	width: 41%;
+}
+
+.column-count {
+	width: 12%;
+	text-align: center !important;
+}
+
+.column-view {
+	width: 12%;
+	text-align: center !important;
+}
+
+.column-scheduled {
+	width: 15%;
+	text-align: center !important;
+}
+
+.column-keep {
+	width: 20%;
+	border-right: 0 none !important;
+	text-align: center !important;
+}
+
+/* Custom cleanup columns for : revisions, auto-drafts and trash posts */
+
+.column-post_id {width: 10%}
+
+.column-post_title {width: 34%}
+
+.column-post_content {width: 34%}
+
+.column-post_date {width: 22%}
+
+/* Custom cleanup columns for : Pending comments, Spam Comments, Trash comments, Pingbacks and Trackbacks */
+
+.column-comment_id {width: 10%}
+
+.column-comment_author {width: 30%}
+
+.column-comment_content {width: 38%}
+
+.column-comment_date {width: 22%}
+
+/* Custom cleanup columns for : Orphaned post meta, Orphaned comment meta, Orphaned user meta, Orphaned term meta */
+
+.column-meta_id {width: 20%}
+
+.column-meta_key {width: 40%}
+
+.column-meta_value {width: 40%}
+
+/* Custom cleanup columns for : Orphaned relationships */
+
+.column-object_id {width: 20%}
+
+.column-term_taxonomy_id {width: 40%}
+
+.column-term_order {width: 40%}
+
+/* Custom cleanup columns for : Transients */
+
+.column-transient_id {width: 12%}
+
+.column-transient_name {width: 30%}
+
+.column-transient_content {width: 25%}
+
+.column-transient_timeout {width: 20%}
+
+.column-transient_autoload {width: 13%}
+
+/* "Tables" tab columns */
+
+.column-table_name {width: 44%}
+
+.column-table_rows {width: 14%}
+
+.column-table_size {
+	width: 14%;
+	font-size: 12px !important;
+}
+
+.column-table_belongs_to {width: 28%}
+
+/* "Options" tab columns */
+
+.column-option_name {width: 31%}
+
+.column-option_value {width: 22%}
+
+.column-option_size {width: 10%}
+
+.column-option_autoload {width: 12%}
+
+.column-option_belongs_to {width: 25%}
+
+/* "Tasks" tab columns */
+
+.column-hook_name {width: 27%}
+
+.column-arguments {width: 20%}
+
+.column-next_run {
+	width: 30%;
+	font-size: 12px !important;
+}
+
+.column-hook_belongs_to {width: 23%}
+
+/* MU site_id column */
+
+.column-site_id {width: 60px}
+
+/*---------------------------------------------------------------------------------------------
+*  Items categories counts css for "tables", "options" and "tasks" tabs
+*---------------------------------------------------------------------------------------------*/
+
+.aDBc-category-counts {
+	float: right;
+	background: #f5f5f5;
+	padding: 8px;
+	border: 1px solid #eee;
+	text-align: left;
+	border-radius: 4px;
+}
+
+@media screen and (max-width: 830px) {
+	.aDBc-category-counts {
+		clear: both;
+		float: left;
+		margin-top: 20px;
+	}
+}
+
+.aDBc-category-counts-links {
+	text-decoration: none !important;
+}
+
+.aDBc-category-counts-links:hover {
+	border-bottom: 1px dashed #999;
+}
+
+.aDBc-selected-category {
+	font-weight: bold;
+	font-size: 13px;
+}
+
+.aDBc-category-total {
+	background: #fff;
+	border: 1px solid #eee;
+	color: #fff;
+	padding: 1px 5px;
+	margin-top: 8px;
+	border-radius: 4px;
+	min-width: 50px;
+}
+
+.aDBc-category-span {
+	text-align: center;
+	margin-left: 6px;
+	margin-right: 6px;
+}
+
+@media screen and (max-width: 830px) {
+	.aDBc-category-span {
+		margin-bottom: 20px;
+	}
+}
+
+/*---------------------------------------------------------------------------------------------
+*  Filter section
+*---------------------------------------------------------------------------------------------*/
+
+.aDBc-filter-container {
+	float: right;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	width: 100%;
+	background: #f7f7f7;
+	border: 1px solid #f2f2f2;
+	border-radius: 2px;
+}
+
+.aDBc-filter-section {
+	float: left;
+	padding: 12px 12px;
+}
+
+@media screen and (max-width: 820px) {
+	.aDBc-filter-section {
+		clear: both;
+	}
+}
+
+.aDBc-filter-search-input {
+	float: left;
+	line-height: 2 !important;
+	font-size: 13px !important;
+	width: 130px !important;
+	min-height: 30px !important;
+	height: 30px !important;
+	margin-right: 4px;
+	padding-top: 1px !important;
+	padding-left: 6px !important;
+	margin-top: 0px !important;
+	border: 1px solid #ccc !important;
+	border-radius: 4px !important;
+	box-shadow: none !important;
+}
+
+@media screen and (max-width: 500px) {
+	.aDBc-filter-search-input {
+		width: 100% !important;
+		margin-right: 0px;
+	}
+}
+
+.aDBc-filter-dropdown-menu {
+	line-height: 2 !important;
+	font-size: 13px !important;
+	min-height: 30px !important;
+	height: 30px !important;
+	margin-top: 0px !important;
+	margin-left: 0px !important;
+	padding-top: 1px !important;
+	padding-left: 6px !important;
+	border: 1px solid #ccc !important;
+	border-radius: 4px !important;
+	box-shadow: none !important;
+}
+
+@media screen and (max-width: 500px) {
+	.aDBc-filter-dropdown-menu {
+		width: 100% !important;
+		margin-top: 5px !important;
+		margin-left: 0px;
+	}
+}
+
+.aDBc-filter-botton {
+	float: left;
+	height: 30px !important;
+	width: 50px !important;
+	margin-top: 0px !important;
+}
+
+@media screen and (max-width: 500px) {
+	.aDBc-filter-botton {
+		clear: both;
+		margin-top: 5px !important;
+	}
+}
+
+.aDBc-items-per-page {
+	float: right;
+	padding: 12px 12px;
+}
+
+@media screen and (max-width: 820px) {
+	.aDBc-items-per-page {
+		float: left;
+		clear: both;
+	}
+}
+
+.aDBc-items-per-page-label {
+	float: left;
+	padding-top: 5px;
+	padding-right: 8px;
+	font-size: 13px;
+}
+
+.aDBc-items-per-page-input {
+	float: left;
+	font-size: 13px !important;
+	width: 60px !important;
+	min-height: 30px !important;
+	height: 30px !important;
+	margin-right: 4px;
+	margin-top: 0px !important;
+	padding-left: 6px !important;
+	border: 1px solid #ccc !important;
+	border-radius: 4px !important;
+	box-shadow: none !important;
+}
+
+.aDBc-show-botton {
+	float: left;
+	height: 30px !important;
+	margin-top: 0px !important;
+}
+
+.aDBc-delete-custom-filter {
+	clear: both;
+	padding: 5px 0px 8px 14px;
+}
+
+/* custom filter for custom cleanup */
+
+.aDBc-custom-filter-radio-section {
+	float: left;
+	background: #fff;
+	padding: 6px;
+	margin-right: 6px;
+	border: 1px solid #eee;
+	border-radius: 4px;
+	box-shadow: 0 0 10px #f1f1f1;
+}
+
+@media screen and (max-width: 820px) {
+	.aDBc-custom-filter-radio-section {
+		padding: 4px;
+	}
+}
+
+/* In free, filter not available */
+
+.aDBc-filter-pro-only {
+	pointer-events: none;
+	opacity: 0.5;
+}
+
+/*---------------------------------------------------------------------------------------------
+*  Run search, double check
+*---------------------------------------------------------------------------------------------*/
+
+.aDBc-run-new-search, .aDBc-run-new-search:disabled {
+	height: 34px !important;
+	min-width: 145px !important;
+	background-color: #0085ba;
+	background-image: url("../images/search-icon.svg");
+	background-repeat: no-repeat !important;
+	background-position: 8px 50% !important;
+	padding-left: 38px !important;
+	text-align: left;
+	border-color: #0073aa #006799 #006799;
+	box-shadow: 0 1px 0 #006799;
+	color: #fff;
+	text-shadow: 0 -1px 1px #006799, 1px 0 1px #006799, 0 1px 1px #006799, -1px 0 1px #006799;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 13px;
+	line-height: 26px;
+	margin: 0;
+	cursor: pointer;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 3px;
+	white-space: nowrap;
+	box-sizing: border-box;
+}
+
+.aDBc-run-new-search:hover {
+	background-color: #178DBD;
+}
+
+.aDBc-double-check {
+	height: 34px !important;
+	min-width: 145px !important;
+	background-color: #0085ba;
+	background-image: url("../images/double_check.svg");
+	background-repeat: no-repeat !important;
+	background-position: 8px 50% !important;
+	padding-left: 38px !important;
+	text-align: left;
+	border-color: #0073aa #006799 #006799;
+	box-shadow: 0 1px 0 #006799;
+	color: #fff;
+	text-shadow: 0 -1px 1px #006799, 1px 0 1px #006799, 0 1px 1px #006799, -1px 0 1px #006799;
+	display: inline-block;
+	text-decoration: none;
+	font-size: 13px;
+	line-height: 26px;
+	margin: 0;
+	cursor: pointer;
+	border-width: 1px;
+	border-style: solid;
+	border-radius: 3px;
+	white-space: nowrap;
+	box-sizing: border-box;
+}
+
+.aDBc-double-check:hover {
+	background-color: #178DBD;
+}
+
+/*---------------------------------------------------------------------------------------------
+*  Scan progress bar
+*---------------------------------------------------------------------------------------------*/
+
+#aDBc-progress-container {
+	margin-top: 20px;
+	display: none;
+}
+
+.aDBc-progress-background {
+	background: #eee;
+	width: 100%;
+	height: 25px;
+	border-radius: 2px;
+}
+
+.aDBc-progress-bar {
+    float: left;
+    width: 0;
+    height: 100%;
+    font-size: 12px;
+    line-height: 25px;
+    color: #fff;
+    text-align: center;
+    background-color: #0570bc;
+    -webkit-transition: width 1s ease;
+    -o-transition: width 1s ease;
+    transition: width 1s ease;
+	border-radius: 2px;
+}
+
+/*---------------------------------------------------------------------------------------------
+*  Edit categorization
+*---------------------------------------------------------------------------------------------*/
+
+.aDBc-edit-correction-title {
+	text-align: center;
+	margin-top: 10px;
+	padding: 8px;
+	background: #f0f5fa;
+}
+
+.aDBc-correction-item {
+	float: left;
+	background: #fff;
+	border: 1px dashed #999;
+	border-radius: 15px;
+	padding: 6px;
+	margin-right: 4px;
+	margin-bottom: 4px;
+	line-height:20px;
+}
+
+.aDBc-correction-new-wrapper {
+	background: #ffa5002e;
+	padding: 10px;
+	margin-top: 30px;
+}
+
+.aDBc-correction-belongs-to {
+	font-size: 14px;
+	max-width: 250px;
+	font-size: 14px !important;
+	height: 30px;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+	margin-top: 10px;
+}
+
+@media screen and (max-width: 400px) {
+	.aDBc-correction-belongs-to {
+		max-width: 140px;
+	}
+}
+
+.aDBc-correction-btns-div {
+	margin-top: 60px;
+	margin-bottom: 100px;
+}
+
+.aDBc-correction-btn {
+	width: 80px !important;
+	height: 30px !important;
+	margin-right: 20px !important;
+}
+
+/*---------------------------------------------------------------------------------------------
+*  Overview & settings tab
+*---------------------------------------------------------------------------------------------*/
+
+.aDBc-overview-box {
+	float: left;
+	margin: 15px 20px 20px 10px;
+	width: 45%;
+	background: #fff;
+}
+
+@media screen and (max-width: 930px) {
+	.aDBc-overview-box {
+		width: 100%;
+	}
+}
+
+.aDBc-overview-box-head {
+    color: #000;
+    font-size: 14px;
+    font-weight: bold;
+    padding: 8px 15px;
+    background: #f5f5f5;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #aeaeae;
+}
+
+.aDBc-overview-box > ul > li {
+	line-height: 38px;
+	margin-bottom: 20px;
+	padding: 0px 10px;
+	clear: both;
+}
+
+.aDBc-overview-text-left {
+	float: left;
+	width: 200px;
+}
+
+.aDBc-overview-dashicon {
+	color: #25C1EE;
+	vertical-align: middle !important;
+}
+
+.aDBc-overview-setting-desc {
+	padding-left: 24px;
+	color: #999;
+	line-height: 20px;
+}
+
+@media screen and (max-width: 782px) {
+	.aDBc-overview-setting-desc {
+		padding-left: 32px;
+	}
+}
+
+.aDBc-save-settings {
+	padding: 2px 15px !important;
+	margin-top: 20px !important;
+}
+
+/*---------------------------------------------------------------------------------------------
+*  License tab
+*---------------------------------------------------------------------------------------------*/
+
+.aDBc-license-container {
+	max-width: 600px;
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 0px 20px 2px rgba(240,240,240,1);
+	-moz-box-shadow: 0px 0px 20px 2px rgba(240,240,240,1);
+	box-shadow: 0px 0px 20px 2px rgba(240,240,240,1);
+}
+
+.aDBc-license-container a {
+	text-decoration: none;
+}
+
+.aDBc-license-container a:hover {
+	cursor: pointer;
+}
+
+.aDBc-status-box {
+	padding: 40px 40px;
+	border-bottom: 1px solid #f3f3f3;
+}
+
+.aDBc-div-status {
+	float: left;
+}
+
+@media screen and (max-width: 620px) {
+	.aDBc-div-status {
+		float: none;
+	}
+}
+
+.aDBc-license-status-label {
+	color: #000;
+	font-size: 1rem;
+	font-weight: 500;
+}
+
+.aDBc-license-status {
+	font-size: 0.95rem;
+	font-weight: 700;
+	/*font-style: italic;*/
+	margin-left: 5px;
+	margin-right: 20px;
+}
+
+.aDBc-check-license-btn {
+	float: left;
+}
+
+@media screen and (max-width: 620px) {
+	.aDBc-check-license-btn {
+		float: none;
+		margin-top: 10px;
+	}
+}
+
+.aDBc-license-account {
+	float: right;
+}
+
+@media screen and (max-width: 620px) {
+	.aDBc-license-account {
+		float: none;
+		margin-top: 10px;
+	}
+}
+
+.aDBc-license-icon {
+	padding: 1px 3px 1px 0px;
+	font-size: 17px;
+}
+
+.aDBc-license-box {
+	padding: 40px 40px;
+	position: relative;
+}
+
+.aDBc-license-key-input {
+	height: 40px;
+	width: 100%;
+	letter-spacing: 0.08em;
+	font-size: 0.9rem;
+	font-weight: 400;
+	color: #000 !important;
+	border-radius: 2px !important;
+	border-width: 1px 1px 2px 1px !important;
+	border-color: #2271b1 !important;
+}
+
+.aDBc-license-key-input:focus {
+    box-shadow: none !important;
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+}
+
+.aDBc-license-key-input:disabled {
+    background-color: #f9f9f9 !important;
+}
+
+.aDBc-license-btn {
+	position: absolute;
+	top: 40px;
+	right:40px;
+	box-sizing: border-box;
+	padding: 10px 14px;
+	height: 40px;
+	cursor: pointer;
+	text-align: center;
+	border-radius: 2px;
+	background: #2271b1;
+	color: white;
+}
+
+.aDBc-license-btn:hover {
+	background: #135e96;
+}
+
+
+@media screen and (max-width: 690px) {
+	.aDBc-license-btn {
+		position: relative;
+		top: 10px;
+		left: 0px;
+	}
+}
+
+/*---------------------------------------------------------------------------------------------
+*  Premium page style
+*---------------------------------------------------------------------------------------------*/
+
+.aDBc-vertical-box {
+	float: left;
+	background: #f9f9f9;
+	width: 28%;
+	margin:5px 15px;
+	min-height: 350px;
+}
+
+@media screen and (max-width: 1024px) {
+	.aDBc-vertical-box {
+		width: 94%;
+	}
+}
+
+div.aDBc-vertical-box > div:first-child {
+	color: #fff;
+	font-size: 15px;
+	font-weight: bold;
+	text-align: center;
+	padding: 12px;
+	background: #69ADE2;
+	border-radius: 8px;
+}
+
+div.aDBc-vertical-box > div:nth-child(2) {
+	text-align: center;
+	margin-top: 20px;
+}
+
+div.aDBc-vertical-box > div:nth-child(3) {
+	text-align: center;
+	margin-top: 50px;
+	margin-bottom: 20px;
+}
+
+.aDBc-vertical-box a {
+	text-decoration: none;
+	color: white;
+}
+
+.aDBc-premium-img {
+	width: 80px;
+}
+
+.aDBc-vertical-box ul li {
+	padding-left: 20px;
+	margin-left: 20px;
+}
+
+@media screen and (max-width: 1024px) {
+	.aDBc-vertical-box ul li {
+		padding-left: 0px;
+		margin-left: 0px;
+		text-align: center;
+	}
+}
+
+.aDBc-vertical-box ul li span {
+	color: #84bc00;
+}
+
+.aDBc-purchase-btn {
+	text-align: center;
+	margin-top: 60px;
+}
+
+.aDBc-purchase-btn img {
+	width: 70%;
+	max-width: 200px;
+}
+
+/*---------------------------------------------------------------------------------------------
+*  Sidebar
+*---------------------------------------------------------------------------------------------*/
+
+.aDBc-sidebar {
+	float: right;
+	margin-right: -260px;
+	margin-top: 48px;
+	width: 240px;
+}
+
+@media screen and (max-width: 1200px) {
+	.aDBc-sidebar {
+		clear: both;
+		float: left;
+		margin-right: 0px;
+	}
+}
+
+.aDBc-upgrade {
+	background-color: #23282d;
+	padding: 15px;
+	border-radius: 6px;
+}
+
+.aDBc-upgrade a {
+	text-decoration: none;
+	color: #fff;
+}
+
+.aDBc-upgrade img {
+	display: block;
+	width: 80px;
+	height: auto;
+	margin: 0 auto;
+}
+
+.aDBc-upgrade h3 {
+	font-size: 22px;
+	font-weight: bold;
+	color: #fff;
+	text-align: center;
+	padding-top: 20px;
+	padding-bottom: 5px;
+}
+
+.aDBc-upgrade ul {
+	font-size: 14px;
+	margin-left: 30px;
+}
+
+.aDBc-upgrade ul li {
+	margin: 5px 0 10px 0;
+}
+
+.aDBc-upgrade ul li span {
+	margin-left: -31px;
+	font-size: 24px;
+	margin-right: 6px;
+	vertical-align: text-bottom;
+}
+
+.aDBc-upgrade div {
+	text-align: center;
+	border-top: 1px dashed #888;
+	padding: 10px;
+	color :#999;
+}
+
+/*---------------------------------------------------------------------------------------------
+*  Sweetalert override
+*---------------------------------------------------------------------------------------------*/
+
+.swal2-icon.swal2-question {
+    border-color: #e2e2e2 !important;
+    color: #0085ba !important;
+}
+
+/*---------------------------------------------------------------------------------------------
+*  Tooltip for upgrade to premium
+*---------------------------------------------------------------------------------------------*/
+
+.aDBc-premium-tooltip {
+	position: relative;
+	display: inline-block;
+}
+
+.aDBc-premium-tooltip .aDBc-premium-tooltiptext {
+	visibility: hidden;
+	background-color: #fff;
+	text-align: center;
+	color: #444;
+	padding: 6px 0;
+	border: 1px solid orange;
+	top: 100%;
+	left: 50%;
+	margin-left: -72px;
+	position: absolute;
+	z-index: 1;
+}
+
+.aDBc-premium-tooltip:hover .aDBc-premium-tooltiptext {
+  visibility: visible;
+}
+
+/*---------------------------------------------------------------------------------------------
+*  Tooltip for content
+*---------------------------------------------------------------------------------------------*/
+
+span.aDBc-tooltips {
+	position: relative;
+	display: inline;
+	cursor: pointer;
+	color: #000;
+	border-bottom:1px dotted orange;
+}
+
+span.aDBc-tooltips span {
+	position: absolute;
+	color: #666666;
+	background: #FFFFE0;
+	font-size: 13px;
+	font-weight: normal;
+	padding: 10px;
+	visibility: hidden;
+	width: 300px;
+	border: 1px solid #006799;
+	border-radius: 4px;
+}
+
+span.aDBc-tooltips span:after {
+	content: '';
+	position: absolute;
+	top: 18px;
+	right: 100%;
+	margin-top: -8px;
+	width: 0;
+	height: 0;
+	border-right: 8px solid #006799;
+	border-top: 8px solid transparent;
+	border-bottom: 8px solid transparent;
+}
+
+span:hover.aDBc-tooltips span {
+	visibility: visible;
+	left: 100%;
+	top: 50%;
+	margin-top: -15.5px;
+	margin-left: 5px;
+	z-index: 999;
+}
+
+/*---------------------------------------------------------------------------------------------
+*  Tooltip for tables heads info
+*---------------------------------------------------------------------------------------------*/
+
+span.aDBc-tooltips-headers {
+	position: relative;
+	display: inline;
+	cursor: pointer;
+	color: #000;
+}
+
+span.aDBc-tooltips-headers span {
+	position: absolute;
+	text-align: left;
+	line-height: 22px;
+	color: #fff;
+	background: #222;
+	opacity: 1 !important;
+	font-size: 13px;
+	font-weight: normal;
+	padding: 10px;
+	visibility: hidden;
+	width: 240px;
+	border: 1px solid #222;
+	border-radius: 4px;
+}
+
+@media screen and (max-width: 1190px) {
+	span.aDBc-tooltips-headers span {
+		width: 80px;
+	}
+}
+
+span.aDBc-tooltips-headers span:after {
+	content: '';
+	position: absolute;
+	top: 18px;
+	right: 100%;
+	margin-top: -8px;
+	width: 0;
+	height: 0;
+	border-right: 8px solid #222;
+	border-top: 8px solid transparent;
+	border-bottom: 8px solid transparent;
+}
+
+span:hover.aDBc-tooltips-headers span {
+	visibility: visible;
+	left: 100%;
+	top: 50%;
+	margin-top: -15.5px;
+	margin-left: 8px;
+	z-index: 999;
+}
+
+.aDBc-info-image {
+	width: 15px;
+	vertical-align: middle;
+	margin-left: 2px;
+}

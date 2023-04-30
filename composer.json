@@ -8,28 +8,28 @@
     ],
     "repositories": [
         {
-          "type": "composer",
-          "url": "https://wpackagist.org",
-          "only": [
-            "wpackagist-plugin/*",
-            "wpackagist-theme/*"
-          ]
+            "type": "composer",
+            "url": "https://wpackagist.org",
+            "only": [
+                "wpackagist-plugin/*",
+                "wpackagist-theme/*"
+            ]
         },
         {
             "type": "package",
             "package": {
-              "name": "mt-support/tribe-ext-eventbrite-additional-options",
-              "version": "1.0.3",
-              "type": "wordpress-plugin",
-              "source": {
-                "url": "https://github.com/mt-support/tribe-ext-eventbrite-additional-options.git",
-                "type": "git",
-                "reference": "master"
-              },
-              "dist": {
-                "url": "https://github.com/mt-support/tribe-ext-eventbrite-additional-options/archive/refs/tags/1.0.3.zip",
-                "type": "zip"
-              }
+                "name": "mt-support/tribe-ext-eventbrite-additional-options",
+                "version": "1.0.3",
+                "type": "wordpress-plugin",
+                "source": {
+                    "url": "https://github.com/mt-support/tribe-ext-eventbrite-additional-options.git",
+                    "type": "git",
+                    "reference": "master"
+                },
+                "dist": {
+                    "url": "https://github.com/mt-support/tribe-ext-eventbrite-additional-options/archive/refs/tags/1.0.3.zip",
+                    "type": "zip"
+                }
             }
         },
         {
