@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f914101e8bdd36bef6230335fab67f2f",
+    "content-hash": "d625c7fa7bf635377c6b172df9b361af",
     "packages": [
         {
             "name": "composer/installers",
@@ -218,6 +218,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/all-in-one-seo-pack/"
+        },
+        {
+            "name": "wpackagist-plugin/real-media-library-lite",
+            "version": "4.19.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/real-media-library-lite/",
+                "reference": "tags/4.19.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/real-media-library-lite.4.19.0.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/real-media-library-lite/"
         },
         {
             "name": "wpbakery/pagebuilder",
