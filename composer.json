@@ -61,7 +61,9 @@
         "wpbakery/pagebuilder": "5.4.7",
         "wpackagist-plugin/real-media-library-lite": "4.19.0",
         "wpackagist-plugin/advanced-cron-manager": "2.5.0",
-        "wpackagist-plugin/advanced-database-cleaner": "3.1.2"
+        "wpackagist-plugin/advanced-database-cleaner": "3.1.2",
+        "wpackagist-plugin/breeze": "2.0.20",
+        "wpackagist-plugin/classic-editor": "1.6.3"
     },
     "config": {
         "allow-plugins": {
