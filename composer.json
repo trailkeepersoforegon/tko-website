@@ -65,7 +65,9 @@
         "wpackagist-plugin/breeze": "2.0.20",
         "wpackagist-plugin/classic-editor": "1.6.3",
         "wpackagist-plugin/event-tickets": "5.5.10",
-        "wpackagist-plugin/duplicate-page": "4.5.2"
+        "wpackagist-plugin/duplicate-page": "4.5.2",
+        "wpackagist-plugin/mailchimp-for-wp": "4.9.3",
+        "wpackagist-plugin/wicked-folders": "2.18.17"
     },
     "config": {
         "allow-plugins": {

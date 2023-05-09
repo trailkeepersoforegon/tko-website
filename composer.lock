@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6909ef0d1cd0770d61baf452d81a0c6a",
+    "content-hash": "18de6962226ed8abb4816c3920312598",
     "packages": [
         {
             "name": "composer/installers",
@@ -292,6 +292,24 @@
             "homepage": "https://wordpress.org/plugins/event-tickets/"
         },
         {
+            "name": "wpackagist-plugin/mailchimp-for-wp",
+            "version": "4.9.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/mailchimp-for-wp/",
+                "reference": "tags/4.9.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/mailchimp-for-wp.4.9.3.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/mailchimp-for-wp/"
+        },
+        {
             "name": "wpackagist-plugin/real-media-library-lite",
             "version": "4.19.0",
             "source": {
@@ -308,6 +326,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/real-media-library-lite/"
+        },
+        {
+            "name": "wpackagist-plugin/wicked-folders",
+            "version": "2.18.17",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wicked-folders/",
+                "reference": "tags/2.18.17"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wicked-folders.2.18.17.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wicked-folders/"
         },
         {
             "name": "wpbakery/pagebuilder",
