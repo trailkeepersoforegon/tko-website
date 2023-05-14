@@ -67,7 +67,9 @@
         "wpackagist-plugin/event-tickets": "5.5.10",
         "wpackagist-plugin/duplicate-page": "4.5.2",
         "wpackagist-plugin/mailchimp-for-wp": "4.9.3",
-        "wpackagist-plugin/wicked-folders": "2.18.17"
+        "wpackagist-plugin/wicked-folders": "2.18.17",
+        "wpackagist-plugin/redirection": "5.3.10",
+        "wpackagist-plugin/redux-framework": "4.4.0"
     },
     "config": {
         "allow-plugins": {
