@@ -69,7 +69,9 @@
         "wpackagist-plugin/mailchimp-for-wp": "4.9.3",
         "wpackagist-plugin/wicked-folders": "2.18.17",
         "wpackagist-plugin/redirection": "5.3.10",
-        "wpackagist-plugin/redux-framework": "4.4.0"
+        "wpackagist-plugin/redux-framework": "4.4.0",
+        "wpackagist-plugin/multiple-admin-email-addresses": "1.1.2",
+        "wpackagist-plugin/disable-xml-rpc": "1.0.1"
     },
     "config": {
         "allow-plugins": {
