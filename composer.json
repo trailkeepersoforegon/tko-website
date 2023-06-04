@@ -71,7 +71,9 @@
         "wpackagist-plugin/redirection": "5.3.10",
         "wpackagist-plugin/redux-framework": "4.4.0",
         "wpackagist-plugin/multiple-admin-email-addresses": "1.1.2",
-        "wpackagist-plugin/disable-xml-rpc": "1.0.1"
+        "wpackagist-plugin/disable-xml-rpc": "1.0.1",
+        "wpackagist-plugin/wp-crontrol": "1.15.2",
+        "wpackagist-plugin/wp-shopify": "1.4.1"
     },
     "config": {
         "allow-plugins": {
